@@ -1,0 +1,150 @@
+name: qr_generator_flutter
+description: "A new Flutter project."
+# The following line prevents the package from being accidentally published to
+# pub.dev using `flutter pub publish`. This is preferred for private packages.
+publish_to: 'none' # Remove this line if you wish to publish to pub.dev
+
+# The following defines the version and build number for your application.
+# A version number is three numbers separated by dots, like 1.2.43
+# followed by an optional build number separated by a +.
+# Both the version and the builder number may be overridden in flutter
+# build by specifying --build-name and --build-number, respectively.
+# In Android, build-name is used as versionName while build-number used as versionCode.
+# Read more about Android versioning at https://developer.android.com/studio/publish/versioning
+# In iOS, build-name is used as CFBundleShortVersionString while build-number is used as CFBundleVersion.
+# Read more about iOS versioning at
+# https://developer.apple.com/library/archive/documentation/General/Reference/InfoPlistKeyReference/Articles/CoreFoundationKeys.html
+# In Windows, build-name is used as the major, minor, and patch parts
+# of the product and file versions while build-number is used as the build suffix.
+version: 1.0.0+1
+
+environment:
+  sdk: ^3.7.2
+
+# Dependencies specify other packages that your package needs in order to work.
+# To automatically upgrade your package dependencies to the latest versions
+# consider running `flutter pub upgrade --major-versions`. Alternatively,
+# dependencies can be manually updated by changing the version numbers below to
+# the latest version available on pub.dev. To see which dependencies have newer
+# versions available, run `flutter pub outdated`.
+dependencies:
+  flutter:
+    sdk: flutter
+
+  get: ^4.6.1
+  intl: ^0.20.2
+  auto_animated: ^3.0.1
+  rive: ^0.13.20
+  lottie: ^3.1.2
+  awesome_dialog: ^3.1.0
+  flutter_zoom_drawer: ^3.2.0
+
+  
+  #Firebase 
+  firebase_auth: ^5.5.3
+  cloud_firestore: ^5.6.7
+  firebase_database: ^11.3.5
+
+  #Local Data Cache
+  shared_preferences: ^2.0.15
+ 
+
+  #Icon
+  flutter_svg: ^2.0.10+1
+  font_awesome_flutter: ^10.7.0
+
+  #Google Auth
+  google_sign_in: ^6.2.1
+  image_pickers: ^2.0.0+2
+  #Google Auth
+
+  # The following adds the Cupertino Icons font to your application.
+  # Use with the CupertinoIcons class for iOS style icons.
+
+  smooth_page_indicator: ^1.1.0
+  flutter_otp_text_field: ^1.1.3+2
+  cupertino_icons: ^1.0.8
+  # email_otp: ^3.0.1
+  email_auth: ^2.0.0
+  stream_typewriter_text: ^1.0.7
+  omni_datetime_picker: ^2.0.3
+  flutter_ringtone_player: ^4.0.0+3
+  flutter_launcher_icons: ^0.14.3
+  roundcheckbox: ^2.0.5
+  firebase_storage: ^12.4.5
+  image_picker: ^1.1.2
+  path: ^1.9.0
+  firebase_messaging: ^15.2.5
+  cloud_functions: ^5.5.0
+  firebase_core: ^3.14.0
+  # share_screenshot_widget: ^0.0.5
+  share_plus: ^11.0.0
+  screenshot: ^3.0.0
+  flutter_slidable: ^4.0.0
+  flutter_facebook_auth: ^7.1.2
+  # image_gallery_saver: ^2.0.3
+  # permission_handler: ^11.3.1
+  # share_files_and_screenshot_widgets: ^1.0.6
+  
+  # State Management
+  
+
+  firebase_analytics: ^11.5.0
+  
+  # QR Code
+  qr_flutter: ^4.1.0
+  qr_code_scanner: ^1.0.1
+  
+  # UI & Icons
+  google_fonts: ^6.1.0
+  
+  # Utils
+  path_provider: ^2.1.1
+  permission_handler: ^12.0.0+1
+  image_gallery_saver: ^2.0.3
+  
+  # Date & Time
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^5.0.0
+
+flutter:
+  uses-material-design: true
+
+
+flutter_launcher_icons:
+  android: "ic_launcher"
+  ios: true
+  image_path: "assets/icon/logo.jpg"
+  min_sdk_android: 21 # android min sdk min:16, default 21
+
+  # The following adds the Cupertino Icons font to your application.
+  # Use with the CupertinoIcons class for iOS style icons.
+  
+
+
+  # The "flutter_lints" package below contains a set of recommended lints to
+  # encourage good coding practices. The lint set provided by the package is
+  # activated in the `analysis_options.yaml` file located at the root of your
+  # package. See that file for information about deactivating specific lint
+  # rules and activating additional ones.
+
+# For information on the generic Dart part of this file, see the
+# following page: https://dart.dev/tools/pub/pubspec
+
+# The following section is specific to Flutter packages.
+
+  # The following line ensures that the Material Icons font is
+  # included with your application, so that you can use the icons in
+  # the material Icons class.
+
+  assets:
+    - assets/images/
+    - assets/icons/
+    - assets/rive/
+    - assets/lottil/
+    - assets/sounds/
+    - assets/images/
+    - assets/icons/    
